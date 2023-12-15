@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; /* Black background */
+}
+
+.wrapper {
+  background-color: #000; /* Change the background color to black (#000) */
+  border-radius: 7px;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.5); /* Add a white shadow */
+}
+
+
+
+.wrapper h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #636161; /* Text color for the heading */
+  font-family: sans-serif; /* Change 'Your-Desired-Font' to the font you want */
+}
+
+
+input, select {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 150px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.credits {
+  text-align: center;
+  margin-top: 20px;
+  color: white; /* Text color for the footer */
+  font-size: 14px;
+}
